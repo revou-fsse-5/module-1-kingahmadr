@@ -20,8 +20,8 @@
         align-items: center;
     }
     .container img {
-        margin-right: 20px; /* Adjust spacing as needed */
-        max-width: 150px; /* Adjust the size of the image */
+        margin-right: 20px; 
+        max-width: 150px; 
         height: auto;
         border-radius: 50%;
     }
@@ -35,9 +35,9 @@
 > 
 > _"Further beyond! Plus Ultra!!”_ - All Might from Boku no Hero
 > 
-<audio autoplay>
-  <source src="Audio/BokuNoHero-OST -YouSayRun.mp3" type="audio/mpeg">
-</audio>
+<!-- <audio autoplay>
+  <source src="Audio/BokuNoHero-OST-YouSayRun.mp3" type="audio/mpeg">
+</audio> -->
 ---
 
 ## 🌱 **Currently Learning**
