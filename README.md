@@ -9,21 +9,20 @@
 
 ## 👨‍💻 About Me
 
-<div class="container" style="display: flex; align-items: center;">
+<!-- <div class="container" style="display: flex; align-items: center;">
     <img src="Images/Profile.jpg" alt="Blueberry Muffins" style="max-width: 150px; height: auto; border-radius: 50%; margin-right: 20px;">
     <p>👋 Hi there! I'm a passionate Cloud Engineer and Linux System Administrator on an exciting journey towards becoming a Software Engineer. My goal in diving into Software Engineering is to embrace the vast opportunities this dynamic field offers. I'm thrilled to see how this new adventure unfolds from where I am now. Looking forward to the challenges and growth ahead! 🚀</p>
 </div>
 <br>
-<br>
+<br> -->
+
+<p>👋 Hi there! I'm a passionate Cloud Engineer and Linux System Administrator on an exciting journey towards becoming a Software Engineer. My goal in diving into Software Engineering is to embrace the vast opportunities this dynamic field offers. I'm thrilled to see how this new adventure unfolds from where I am now. Looking forward to the challenges and growth ahead! 🚀</p>
 
 
 > _"さらに向こうへ！プルス ウルトラ！！”_ - All Might from Boku no Hero
 > 
 > _"Further beyond! Plus Ultra!!”_ - All Might from Boku no Hero
 > 
-<!-- <audio autoplay>
-  <source src="Audio/BokuNoHero-OST-YouSayRun.mp3" type="audio/mpeg">
-</audio> -->
 ---
 
 ## 🌱 **Currently Learning**
