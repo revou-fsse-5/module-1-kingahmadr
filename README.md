@@ -1,12 +1,6 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=40&pause=1000&color=051218&background=F6FF199A&vCenter=true&random=false&width=435&lines=Hello%2C+I'm+Ahmad)](https://git.io/typing-svg)
 
-![Alt text](Images/rainy-day.gif){ width=100% }
-
-<!-- <p float="left">
-  <img src="Images/Profile.jpg" width="33%" />
-  <p> Hello This is Ahmad</p>
-</p> -->
-
+![Alt text](Images/rainy-day.gif)
 
 | Platform                                                                                                       | Username                                                |
 | -------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- |
@@ -15,33 +9,27 @@
 
 ## 👨‍💻 About Me
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        .container {
-            display: flex;
-            align-items: center;
-        }
-        .container img {
-            margin-right: 20px; /* Adjust spacing as needed */
-            max-width: 150px; /* Adjust the size of the image */
-            height: auto;
-            border-radius: 50%;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <img src="Images/Profile.jpg" alt="Blueberry Muffins">
-        <p> 👋 Hi there! I'm a passionate Cloud Engineer and Linux System Administrator on an exciting journey towards becoming a Software Engineer. My goal in diving into Software Engineering is to embrace the vast opportunities this dynamic field offers. I'm thrilled to see how this new adventure unfolds from where I am now. Looking forward to the challenges and growth ahead! 🚀</p>
-    </div>
-</body>
-</html>
+<div class="container">
+    <img src="Images/Profile.jpg" alt="Blueberry Muffins">
+    <p>👋 Hi there! I'm a passionate Cloud Engineer and Linux System Administrator on an exciting journey towards becoming a Software Engineer. My goal in diving into Software Engineering is to embrace the vast opportunities this dynamic field offers. I'm thrilled to see how this new adventure unfolds from where I am now. Looking forward to the challenges and growth ahead! 🚀</p>
+</div>
+
+<style>
+    .container {
+        display: flex;
+        align-items: center;
+    }
+    .container img {
+        margin-right: 20px; /* Adjust spacing as needed */
+        max-width: 150px; /* Adjust the size of the image */
+        height: auto;
+        border-radius: 50%;
+    }
+</style>
+
 <br>
 <br>
+
 
 > _"さらに向こうへ！プルス ウルトラ！！”_ - All Might from Boku no Hero
 > 
@@ -49,7 +37,6 @@
 > 
 <audio autoplay>
   <source src="Audio/BokuNoHero-OST -YouSayRun.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
 </audio>
 ---
 
