@@ -9,33 +9,10 @@
 
 ## 👨‍💻 About Me
 
-<div class="container"
-        style="
-            display: flex; 
-            align-items: center;
-">
-    <img src="Images/Profile.jpg" alt="Blueberry Muffins" 
-        style="
-            margin-right: 20px;
-            max-width: 150px;
-            height: auto;
-            border-radius: 50%;
-    ">
+<div class="container" style="display: flex; align-items: center;">
+     <img src="Images/Profile.jpg" alt="Blueberry Muffins" style="max-width: 150px; height: auto; border-radius: 50%; margin-right: 20px;">
     <p>👋 Hi there! I'm a passionate Cloud Engineer and Linux System Administrator on an exciting journey towards becoming a Software Engineer. My goal in diving into Software Engineering is to embrace the vast opportunities this dynamic field offers. I'm thrilled to see how this new adventure unfolds from where I am now. Looking forward to the challenges and growth ahead! 🚀</p>
 </div>
-
-<!-- <style>
-    .container {
-        display: flex;
-        align-items: center;
-    }
-    .container img {
-        margin-right: 20px; 
-        max-width: 150px; 
-        height: auto;
-        border-radius: 50%;
-    }
-</style> -->
 
 <br>
 <br>
