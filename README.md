@@ -8,21 +8,41 @@
 | ![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white&style=for-the-badge)    | [ahmadnromiz](https://www.linkedin.com/in/ahmadnromiz/) |
 
 ## 👨‍💻 About Me
-<style>
-    .rounded-image {
-        max-width: 150px;
-        height: auto;
-        border-radius: 50%;
-    }
-</style>
 
-<div class="container" style="display: flex; align-items: center;">
-    <img src="Images/Profile.jpg" alt="Blueberry Muffins" class="rounded-image" style="margin-right: 20px;">
+<!-- <div class="container" style="display: flex; align-items: center;">
+     <img src="Images/Profile.jpg" alt="Blueberry Muffins" style="max-width: 150px; height: auto; border-radius: 50%; margin-right: 20px;">
     <p>👋 Hi there! I'm a passionate Cloud Engineer and Linux System Administrator on an exciting journey towards becoming a Software Engineer. My goal in diving into Software Engineering is to embrace the vast opportunities this dynamic field offers. I'm thrilled to see how this new adventure unfolds from where I am now. Looking forward to the challenges and growth ahead! 🚀</p>
 </div>
 
 <br>
-<br>
+<br> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rounded Image and Text Example</title>
+    <style>
+        .container {
+            display: flex;
+            align-items: center;
+        }
+        .rounded-image {
+            max-width: 150px;
+            height: auto;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="Images/Profile.jpg" alt="Blueberry Muffins" class="rounded-image">
+        <p>👋 Hi there! I'm a passionate Cloud Engineer and Linux System Administrator on an exciting journey towards becoming a Software Engineer. My goal in diving into Software Engineering is to embrace the vast opportunities this dynamic field offers. I'm thrilled to see how this new adventure unfolds from where I am now. Looking forward to the challenges and growth ahead! 🚀</p>
+    </div>
+</body>
+</html>
 
 
 > _"さらに向こうへ！プルス ウルトラ！！”_ - All Might from Boku no Hero
