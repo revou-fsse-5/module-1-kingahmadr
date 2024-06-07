@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header, nav, main, footer {
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+}
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+form {
+    margin: 20px auto;
+    max-width: 100%; /* Ensures the form is responsive */
+    width: 100%; /* Set a default width */
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-sizing: border-box; /* Ensures padding is included in the width */
+}
+/* Adjustments for smaller screens */
+@media (max-width: 480px) {
+    form {
+        width: 90%; /* Adjusted width for smaller screens */
+    }
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input, textarea, select {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+input[type="submit"] {
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #555;
+}
+
+.custom-image {
+    width: 100%;
+    height: 12rem; /* Equivalent to h-48 */
+    object-fit: cover;
+    aspect-ratio: 1; /* For a square aspect ratio (200 / 200) */
+}
+
+.container-contact-us {
+    width: 100%; /* Ensures the container spans the full width of the page */
+    max-width: 100%; /* Ensures the container is responsive */
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem; /* Adjust padding as needed */
+    padding-right: 1rem; /* Adjust padding as needed */
+    box-sizing: border-box; /* Ensures padding is included in the width */
+}
