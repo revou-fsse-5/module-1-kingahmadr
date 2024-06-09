@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio Player</title>
+    <style>
+        /* Add your CSS styling here */
+        .player__section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .player__station {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .player__station__title {
+            text-align: center;
+        }
+        .player__station__logo {
+            width: 100px;
+            height: auto;
+        }
+        .player__controls {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .player__controls button {
+            margin: 0 10px;
+        }
+        .player__volume {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .player__volume__slider {
+            width: 30px;
+            height: 100px;
+            background: #ddd;
+            position: relative;
+            margin-top: 10px;
+        }
+        .b-slider {
+            width: 100%;
+            height: 10px;
+            background: #555;
+            position: absolute;
+        }
+        .player__citatis {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .player__citatis-quote {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="player__section">
+        <div class="player__station">
+            <a href="" target="_blank" class="player__station__to-applemusic" id="top_player_apple" style="display:none">Listen on Apple Music</a>
+            <figure class="player__station__title" id="top_player_title">
+                <a href="/id/prambors/?cs=id.prambors" class="ajax">
+                    <img class="player__station__logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Radio_logo.svg/1024px-Radio_logo.svg.png" alt="Prambors FM">
+                    <figcaption class="player__station__name">Prambors FM</figcaption>
+                </a>
+            </figure>
+            <span id="top_player_track" class="player__station__track" loading="loading" playing="playing" error="playback error" not_supported="this browser can't play it" external="Listen now (Opens in popup player)" stopped="stopped broadcasting" geo_blocked="Not available in your country"></span>
+        </div>
+
+        <div class="player__controls" role="toolbar">
+            <button class="b-favorite" data-toggle="modal" data-target="#popup_auth" title="Add to my favorites"></button>
+            <button class="b-bwd" id="top_player_bwd" title="Previous station"></button>
+            <button class="b-play" id="b_top_play" role="button" title="Listen to radio"></button>
+            <button class="b-fwd" id="top_player_fwd" title="Next station"></button>
+
+            <div class="player__volume" id="top_vol_panel">
+                <button class="b-volume" id="b_vol_control" title="Volume control"></button>
+                <div class="player__volume__slider" role="slider" id="top_volume_slider" aria-label="volume_level" aria-valuemin="0" aria-valuemax="100" aria-valuenow="76" aria-orientation="vertical">
+                    <div class="b-slider" id="top_volume_control" style="bottom: 86px;"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="player__citatis">
+            <div class="player__citatis-quote collapse" id="player-quote" aria-expanded="false" style="height: 0px;">
+                <a href="" id="player_citatis_author_link" class="player__citatis-quote__link" target="citatis">
+                    <h2></h2>
+                    <blockquote></blockquote>
+                </a>
+                <a href="https://citatis.com/" target="citatis">more quotes</a>
+                <span class="more collapsed" data-target="#player-quote" data-toggle="collapse" aria-expanded="false" role="button" aria-label="more quotes"></span>
+            </div>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Radio_tower.svg/1024px-Radio_tower.svg.png" alt="citatis_image_alt" data-target="#player-quote" data-toggle="collapse" aria-expanded="false" role="button" class="collapsed" style="display:none">
+        </div>
+    </div>
+</body>
+</html>
+
