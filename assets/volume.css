@@ -1,0 +1,72 @@
+/* styles.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#top_vol_panel {
+    position: relative;
+}
+
+.b-volume {
+    width: 50px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.b-volume svg {
+    width: 24px;
+    height: 24px;
+    fill: currentColor;
+}
+
+.player__volume__slider {
+    position: absolute;
+    bottom: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 150px;
+    display: none;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.b-slider {
+    -webkit-appearance: none;
+    width: 150px;
+    height: 8px;
+    background: #ddd;
+    outline: none;
+    opacity: 0.7;
+    transition: opacity .2s;
+    transform: rotate(-90deg);
+    transform-origin: 75px 75px; /* Adjust according to your slider size */
+}
+
+.b-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: #4CAF50;
+    cursor: pointer;
+}
+
+.b-slider::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background: #4CAF50;
+    cursor: pointer;
+}

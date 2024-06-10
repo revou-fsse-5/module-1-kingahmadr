@@ -40,6 +40,10 @@
   - `Effective Communication`
 #
 
+## 📔 Assigment Module 1 Week 0
+[module1-revou-assignment.netlify.app](https://module1-revou-assignment.netlify.app/)   
+
+
 ### 🛠 **Software & Tools**
 
 <p align="center">
