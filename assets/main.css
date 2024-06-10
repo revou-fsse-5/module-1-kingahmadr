@@ -149,20 +149,20 @@ input[type="submit"]:hover {
 /* Humberger button CSS 
 Start */
 
-/* * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  } */
+  }
 
 .container-nav {
     max-width: 1050px;
-    width: 90%;
+    width: 100%;
     margin: auto;
   }
   
   .navbar {
-    width: 15%;
+    width: 35%;
     box-shadow: 0 1px 4px rgb(146 161 176 / 15%);
   }
   
@@ -249,9 +249,9 @@ Start */
   .navbar .menu-items {
     padding-top: 120px;
     /* box-shadow: inset 0 0 2000px rgba(0, 0, 0, 0.952); */
-    box-shadow: -2px 3px 124px 93px rgba(0,242,212,1) inset;
-    -webkit-box-shadow: -2px 3px 124px 93px rgba(0,242,212,1) inset;
-    -moz-box-shadow: -2px 3px 124px 93px rgba(0,242,212,1) inset;
+    box-shadow: 2px 4px 400px 200px rgba(0,242,212,1) inset;
+    -webkit-box-shadow: 2px 4px 400px 200px rgba(0,242,212,1) inset;
+    -moz-box-shadow: 2px 4px 400px 200px rgba(0,242,212,1) inset;
     /* background-color: #0af0f8f6; */
     height: 100vh;
     width: 100%;

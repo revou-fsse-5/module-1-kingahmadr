@@ -3,21 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Volume Button</title>
-    <link rel="stylesheet" href="assets/volume.css">
+    <title>Audio Player</title>
+    <style>
+        .player__controls {
+            display: flex;
+            align-items: center;
+        }
+        .b-button {
+            margin-right: 10px;
+            font-size: 24px;
+            background: none;
+            border: none;
+            cursor: pointer;
+        }
+        .b-slider {
+            width: 100px;
+        }
+    </style>
 </head>
 <body>
-    <div class="player__volume" id="top_vol_panel">
-        <button class="b-volume b-mute" id="b_vol_control" title="Volume control">
-            <svg id="volume-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
-                <path d="M12 3.4c-.4 0-.8.2-1.1.5L7.1 7.8H3.5c-.8 0-1.5.7-1.5 1.5v5.4c0 .8.7 1.5 1.5 1.5h3.6l3.8 3.9c.3.3.7.5 1.1.5.9 0 1.5-.7 1.5-1.5V4.9c0-.8-.6-1.5-1.5-1.5zM15.5 12c0-1.3-.5-2.6-1.4-3.5-.3-.3-.4-.7-.4-1.1 0-.8.7-1.5 1.5-1.5.4 0 .8.2 1.1.4C17.8 7.6 19 9.7 19 12s-1.2 4.4-3.2 5.7c-.3.2-.7.4-1.1.4-.8 0-1.5-.7-1.5-1.5 0-.4.2-.8.4-1.1.9-.9 1.4-2.2 1.4-3.5zM21 12c0-2.5-1.2-4.8-3.3-6.3-.3-.2-.7-.4-1.1-.4-.8 0-1.5.7-1.5 1.5 0 .4.2.8.4 1.1C17.6 9.6 18.5 10.7 18.5 12c0 1.3-.5 2.6-1.4 3.5-.3.3-.4.7-.4 1.1 0 .8.7 1.5 1.5 1.5.4 0 .8-.2 1.1-.4C19.8 16.8 21 14.5 21 12z"/>
-            </svg>
-        </button>
-        <div class="player__volume__slider" role="slider" id="top_volume_slider" aria-label="volume_level" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" aria-orientation="vertical">
-            <input type="range" class="b-slider" id="top_volume_control" min="0" max="100" value="50">
+    <div class="player">
+        <audio id="player__audio" src="Audio/goodx27ol-day-187145.mp3"></audio>
+        <div class="player__controls">
+            <button id="b-play" class="b-button">▶️</button>
+            <button id="b-pause" class="b-button" style="display: none;">⏸️</button>
+            <button id="b-mute" class="b-button">🔊</button>
+            <input type="range" id="b-slider" class="b-slider" min="0" max="1" step="0.01" value="1">
         </div>
     </div>
 
-    <script src="assets/script-volume.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const audio = document.getElementById('player__audio');
+            const playButton = document.getElementById('b-play');
+            const pauseButton = document.getElementById('b-pause');
+            const muteButton = document.getElementById('b-mute');
+            const volumeSlider = document.getElementById('b-slider');
+
+            playButton.addEventListener('click', function () {
+                audio.play();
+                playButton.style.display = 'none';
+                pauseButton.style.display = 'inline';
+            });
+
+            pauseButton.addEventListener('click', function () {
+                audio.pause();
+                playButton.style.display = 'inline';
+                pauseButton.style.display = 'none';
+            });
+
+            muteButton.addEventListener('click', function () {
+                if (audio.muted) {
+                    audio.muted = false;
+                    muteButton.textContent = '🔊';
+                } else {
+                    audio.muted = true;
+                    muteButton.textContent = '🔇';
+                }
+            });
+
+            volumeSlider.addEventListener('input', function () {
+                audio.volume = volumeSlider.value;
+            });
+        });
+    </script>
 </body>
 </html>
