@@ -1,13 +1,20 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=40&pause=1000&color=051218&background=F6FF199A&vCenter=true&random=false&width=435&lines=Hello%2C+I'm+Ahmad)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=40&pause=1000&color=051218&background=F6FF199A&vCenter=true&random=false&width=435&lines=Welcome%2C+to+my+page)](https://git.io/typing-svg)
 
 ![Alt text](Images/rainy-day.gif)
 
-| Platform                                                                                                       | Username                                                |
-| -------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- |
-| ![Gmail](https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white&style=for-the-badge)             | [ahmadnromiz@gmail.com](mailto:ahmadnromiz@gmail.com)   |
-| ![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white&style=for-the-badge)    | [ahmadnromiz](https://www.linkedin.com/in/ahmadnromiz/) |
+# Assigment Website Project
+<p>
+This website is an example website project built with HTML, CSS and Javascript.
+I took a coffee shop simple website profile in this page.
+</p>
 
-## 👨‍💻 About Me
+## 📔 Link to my deployment and repository
+* Deploy link: [module1-revou-assignment.netlify.app](https://module1-revou-assignment.netlify.app/) 
+* Repository link: [github.com/revou-fsse-5/module-1-kingahmadr.git](https://github.com/revou-fsse-5/module-1-kingahmadr.git)
+<br>
+<br>
+<br>
+# 👨‍💻 About Me
 
 <!-- <div class="container" style="display: flex; align-items: center;">
     <img src="Images/Profile.jpg" alt="Blueberry Muffins" style="max-width: 150px; height: auto; border-radius: 50%; margin-right: 20px;">
@@ -40,10 +47,6 @@
   - `Effective Communication`
 #
 
-## 📔 Assigment Module 1 Week 0
-[module1-revou-assignment.netlify.app](https://module1-revou-assignment.netlify.app/)   
-
-
 ### 🛠 **Software & Tools**
 
 <p align="center">
@@ -63,7 +66,3 @@
 
 <img height="120" alt="Thanks for visiting me" width="100%" src="https://raw.githubusercontent.com/BrunnerLivio/brunnerlivio/master/images/marquee.svg" />
 <br />
-
-<!-- <p align="center">
-    <img src="https://forthebadge.com/images/featured/featured-powered-by-electricity.svg">
-</p> -->

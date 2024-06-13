@@ -3,96 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Website</title>
+    <title>Responsive Website Ahmad Naufal</title>
     <link rel="stylesheet" type="text/css" href="assets/main.css">
-    <link rel="stylesheet" type="text/css" href="assets/style.css">
     <link rel="stylesheet" type="text/css" href="assets/audio.css">
-    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/modals.css">
     <script src="assets/main.js"></script>
     <script src="assets/audio.js"></script>
+    <script src="assets/modals.js"></script>
 </head>
 <body>
-  <div>
-    <div class="wave"></div>
-    <div class="wave"></div>
-    <div class="wave"></div>
- </div>
- <div class="player">
-  <audio id="player__audio" src="Audio/goodx27ol-day-187145.mp3"></audio>
-  <div class="player__controls">
-      <button id="b-play" class="b-button">▶️</button>
-      <button id="b-pause" class="b-button" style="display: none;">⏸️</button>
-      <button id="b-mute" class="b-button">🔊</button>
-      <input type="range" id="b-slider" class="b-slider" min="0" max="1" step="0.01" value="1">
-  </div>
-</div>
-  <!-- <div class="audio-player">
-    <audio id="audio" loop>
-        <source src="Audio/goodx27ol-day-187145.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-    </audio>
-    <div class="controls">
-        <button id="play-pause-button">▶</button>
-        <input type="range" id="volume-control" min="0" max="1" step="0.01" value="1">
-    </div>
-    <div class="progress">
-        <div class="progress-bar" id="progress-bar"></div>
-    </div>
-    <div id="current-time">0:00</div>
-    <div id="total-time">0:00</div>
-  </div> -->
-  <script src="assets/script.js"></script>
-    <header class="sticky top-0 flex items-center justify-between h-16 px-4 bg-blue-600 dark:bg-gray-800">
-        <div class="navbar">
-          <div class="container-nav nav-container">
-              <input class="checkbox" type="checkbox" name="" id="" />
-              <div class="hamburger-lines">
-                <span class="line line1"></span>
-                <span class="line line2"></span>
-                <span class="line line3"></span>
-              </div>  
-            <!-- <div class="logo">
-              <h1>Navbar</h1>
-            </div> -->
-            <div class="menu-items">
-              <li><a href="#">Home</a></li>
-              <li><a href="#menu">Menu</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#contact">contact</a></li>
-            </div>
-          </div>
-        </div>
-        <div class="logo">
-          <a class="text-2xl font-bold" href="#"
-          ><svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="50"
-            height="50"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="h-6 w-6"
-          >          
-            <path d="M20 21v-8a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8"></path>
-            <path
-              d="M4 16s.5-1 2-1 2.5 2 4 2 2.5-2 4-2 2.5 2 4 2 2-1 2-1"
-            ></path>
-            <path d="M2 21h20"></path>
-            <path d="M7 8v2"></path>
-            <path d="M12 8v2"></path>
-            <path d="M17 8v2"></path>
-            <path d="M7 4h.01"></path>
-            <path d="M12 4h.01"></path>
-            <path d="M17 4h.01"></path>
-          </svg>
-          <span class="sr-only">Bakery Delights</span></a> 
-        </div>
+  <section class="bg-animation">
+    <div>
+      <div class="wave"></div>
+      <div class="wave"></div>
+      <div class="wave"></div>
+   </div>
+  </section>
 
+  <div class="player">
+    <audio id="player__audio" src="Audio/goodx27ol-day-187145.mp3" loop></audio>
+    <div class="player__controls">
+        <button id="b-play" class="b-button">▶️</button>
+        <button id="b-pause" class="b-button" style="display: none;">⏸️</button>
+        <button id="b-mute" class="b-button">🔊</button>
+        <input type="range" id="b-slider" class="b-slider" min="0" max="1" step="0.01" value="1">
+    </div>
+  </div>
+  <figure>
+    <div id="modalOverlay">
+      <div class="modalPopup">
+        <div class="headerBar">
+          <!-- <img src="https://placehold.co/100x75/1e1e1e/white?text=Hello&font=oswald" alt="Logo"> -->
+        </div>
+        <div class="modalContent">
+            <h1>Modal Pop Up Page Load</h1>
+             <p>Thank you for visitting my page</p>
+             <button class="buttonStyle" id="button">Close</button>
+        </div>
+      </div>
+    </div>
+  </figure>
+  <!-- <header class="sticky top-0 flex items-center justify-between h-16 px-4 bg-blue-600 dark:bg-gray-800"> -->
+    <header>
+        <!-- <nav class="navbar"> -->
+          <a href="" class="logo-nav">CSS Nav</a>
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+          <ul class="menu-nav">
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">services</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
     </header>
-    
     <main>
         <section class="py-12 md:py-24 lg:py-32" id="menu">
           <div class="container px-4 md:px-6">
@@ -149,7 +112,8 @@
             </div>
           </div>
         </section>
-        
+        <br>
+        <br>
         <section id="about">
           <div class="container px-4 md:px-6">
             <h2 class="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl" style="text-align: left;">

@@ -3,7 +3,7 @@
     align-items: center;
     position: fixed;
     bottom: 20px;
-    right: 5px;
+    right: 5px; 
 }
 .b-button {
     margin-right: 10px;
@@ -12,6 +12,8 @@
     border: none;
     cursor: pointer;
 }
+
 .b-slider {
+    margin: auto;
     width: 100px;
 }
