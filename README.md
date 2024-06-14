@@ -9,7 +9,7 @@ I took a coffee shop simple website profile in this page.
 </p>
 
 ## 📔 Link to my deployment and repository
-* Deploy link: [module1-revou-assignment.netlify.app](https://module1-revou-assignment.netlify.app/) 
+* Deploy link: [module1-revou-kingahmadr.ahmadcloud.my.id](https://module1-revou-kingahmadr.ahmadcloud.my.id//) 
 * Repository link: [github.com/revou-fsse-5/module-1-kingahmadr.git](https://github.com/revou-fsse-5/module-1-kingahmadr.git)
 <br>
 <br>
