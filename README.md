@@ -1,4 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=40&pause=1000&color=051218&background=F6FF199A&vCenter=true&random=false&width=435&lines=Welcome%2C+to+my+page)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=40&pause=1000&color=000000&background=BBFF20&center=true&vCenter=true&random=true&width=440&height=60&lines=Welcome+to+My+Page)](https://git.io/typing-svg)
 
 ![Alt text](Images/rainy-day.gif)
 
